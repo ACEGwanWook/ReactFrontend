@@ -1,0 +1,11 @@
+@import url('/css/style.css');
+@import url('/css/reactive.css');
+@import url('/css/sidebar.css');
+
+@tailwind components;
+@tailwind utilities;
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

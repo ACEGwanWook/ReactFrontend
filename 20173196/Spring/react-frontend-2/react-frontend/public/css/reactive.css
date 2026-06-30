@@ -1,0 +1,581 @@
+/*반응형 CSS*/
+@media screen and (max-width:1701px) {
+    .canvasdiv {
+        height: calc(100% - 249px);
+    }
+}
+
+@media screen and (max-width:1660px) {
+    .Calendardiv{
+        width:800px;
+    }
+    .IOTtable > tbody{
+        font-size:12px;
+    }
+    .SimulationSide, .DataDetail > span{
+        font-size:13px;
+    }
+}
+
+@media screen and (max-width:1602px) {
+    .AutoDiv > * > table{
+        font-size:13px;
+    }
+    .canvasdiv {
+        height: calc(100% - 210px);
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .databutton > img{
+        width:calc(100% - 12px);
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .floorplan{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:1370px) {
+    .IOTtablediv{
+        overflow-y: auto;
+    }
+
+    .IOTTable th, .IOTTable td{
+        white-space: nowrap;  /* 줄바꿈 막아서 가로로 더 늘어나게 */
+    }
+
+    .BlockImg{
+        width:calc(100% - 348px);
+    }
+}
+
+@media screen and (max-width:1340px) {
+    .header2button{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .KPITable{
+        max-height: 830px;
+        min-width:1000px;
+        display: block;
+    }
+}
+
+@media screen and (max-width:1230px) {
+    .SituationMenu{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .canvasdiv {
+        height: calc(100% - 254px);
+    }
+}
+
+@media screen and (max-width:1203px) {
+    .AutoDiv > * > table{
+        font-size:16px;
+    }
+    .SituationMenu > .AutoDiv{
+        width:calc(50% - 10px);
+    }
+    .canvasdiv {
+        height: calc(100% - 391px);
+    }
+}
+
+@media screen and (max-width:1170px) {
+    .RobotLineTable {
+        font-size:13px;
+    }
+    .tabletab > button{
+        font-size:17px;
+    }
+}
+
+@media screen and (max-width:1152px) {
+    .gridbuttondiv {
+        grid-template-columns: repeat(auto-fit, minmax(20%, auto));
+    }
+}
+
+@media screen and (max-width:1020px) {
+    .gridbuttondiv {
+        grid-template-columns: repeat(auto-fit, minmax(25%, auto));
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .header2button{
+        display:flex;
+        flex-direction: column;
+        padding:5px;
+    }
+    #workorderlist{
+        width:100px;
+    }
+    .side{
+        padding:7px;
+    }
+    .Calendardiv{
+        width:700px;
+        height:600px;
+        grid-template-columns: 200px 1fr;
+    }
+    footer{
+        font-size:19px;
+    }
+    .cellimg{
+        width:100%;
+    }
+    body{
+        overflow-y: auto;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .checkboxdiv, .AutoDiv > * > table{
+        font-size:13px;
+    }
+}
+
+@media screen and (max-width:980px) {
+    .mainpage{
+        padding:0.8em;
+    }
+    #calendar{
+        padding:0;
+    }
+    .fc-event-title, .fc-daygrid-day-number{
+        font-size:8px;
+    }
+    body{
+        background-color: rgb(44, 51, 77);
+    }
+    .SimulationPage{
+        flex-direction: column;
+    }
+    
+    .SimulationData, .SimulationSide{
+        width:100%;
+    }
+
+    .SimulationData{
+        flex-direction: row!important;
+        height:auto;
+    }
+
+    .SimulationData > .height50{
+        width:50%;
+        height:100%;
+    }
+
+    .Simulation{
+        width:100%;
+        height: 50%;
+    }
+
+    .SimulationSide > img {
+        width: 180px;
+    }
+
+    .SimulationSide{
+        font-size:16px;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .Calendardiv{
+        width: 100%;
+        height:700px;
+        display:flex;
+        flex-direction: column;
+    }
+    .side{
+        display:flex;
+        justify-content: space-between;
+        height:150px;
+    }
+    .side > .flex{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .createevent{
+        margin:0;
+    }
+    .showmainheader > span{
+        font-size:18px;
+    }
+}
+
+.navhide{
+    display:none;
+}
+
+@media screen and (max-height: 768px) {
+    .sidemodal{
+        min-height:768px;
+        overflow-y:hidden;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    label{
+        margin:3px 0;
+    }
+    .sidebar{
+        width:100%!important;
+        position:absolute!important;
+        top:0;
+        min-height:60px!important;
+    }
+    .mainpage, .showmain{
+        width:100%!important;
+    }
+    .mainpage, .sidemodal, .tabs, .titlemenu, .showmain{
+        top:60px;
+        margin-left: 0!important;
+    }
+    .showmainheader, .IOTdataDiv, .videomain, .IOTmain, .irregular, .graphicdiv, .SimulationPage, .Monitering, .KPI > .flex{
+        flex-direction: column;
+    }
+    .video{
+        height:100%;
+    }
+    .tabs{
+        width: calc(100% - 8px);
+    }
+    .titlemenu, .showmain{
+        width:calc(100% - 6px)!important;
+    }
+    .tabs, .titlemenu, .showmain{
+        position:relative;
+        left:0;
+        z-index:3;
+    }
+    .Modal{
+        position:fixed;
+        z-index:4;
+    }
+    nav{
+        position:relative;
+        background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+        z-index:100;
+    }
+    .close{
+        top:60px;
+    }
+    .navbar-toggler{
+        display:block!important;
+    }
+    .tablediv, .videodata, .halftablediv, .loadTableDiv{
+        overflow-x:auto;
+    }
+    .RobotTable, .listdata{
+        min-width:100%;
+        max-width:max-content;
+    }
+    .RobotTable th, .RobotTable td, .listdata th, .listdata td, .DataSet th, .DataSet td{
+        white-space: nowrap;  /* 줄바꿈 막아서 가로로 더 늘어나게 */
+    }
+    .profile, .IOTlast{
+        width:100%;
+    }
+    .gridbuttondiv {
+        grid-template-columns: repeat(auto-fit, minmax(33.33%, auto));
+    }
+    .datainfo > span{
+        font-size:12px;
+    }
+    .datainfo, .value{
+        font-size:16px;
+    }
+    .reactivecolumn{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .DataSet, .DataDiv, .reactive {
+        display: block;
+        max-width: max-content;
+        overflow-y: auto;
+    }
+    .weldimg{
+        width: 250px;
+        height: 250px;
+    }
+
+    .reactivenone{
+        display:none;
+    }
+
+    .datainfo > .flex > input {
+        font-size:12px;
+        width:120px;
+        padding:0 3px;
+        border-radius:12px;
+        height:20px;
+    }
+    .set, .gapy{
+        margin:0;
+    }
+
+    .gapx, .gapy{
+        text-align: center;
+        font-size:20px;
+    }
+
+    .cellimg{
+        width:240px;
+    }
+
+    /*.QualityReactive{
+        flex-direction: column;
+    }
+
+    .QualityReactive > .width50, .QualityReactive > .width40{
+        width:100%;
+    }*/
+
+    .graphicdiv{
+        height:100%!important;
+    }
+
+    .left, .right{
+        width:100%!important;
+    }
+
+    .right{
+        margin-top:0;
+    }
+
+    .width50 > label > span{
+        width:100px;
+    }
+
+    .left1{
+        height:40%!important;
+    }
+
+    .left2{
+        height:60%!important;
+    }
+
+    .width33{
+        width:calc(33% - 5px);
+    }
+
+    .width66{
+        width:calc(66% - 10px);
+    }
+
+    .reactivedatainfo > .datainfo{
+        width:calc(100% - 10px);
+    }
+
+    .CalendarModal{
+        margin-top:100px;
+        width:calc(100% - 20px);
+        height:450px;
+    }
+
+    .weldingerrordetail, .weldingerrordetail > * > img {
+        width:100%;
+        left:0;
+    }
+
+    .weldingerrordetail > .bgwhite > img {
+        height: 200px;
+        align-items: center;
+    }
+
+    #ElectTotal, #Gas {
+        width: 100%!important;
+    }
+    .chartdiv{
+        height:max-content!important;
+    }
+
+    .chartdiv > div{
+        height:auto!important;
+    }
+
+    .QualityReactive > .width25{
+        width:100%;
+    }
+
+    .gridLayout{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .WeldingProgressDiv{
+        height:fit-content;
+    }
+
+    .InnerGrid{
+        height:330px;
+    }
+
+    .weldingGrid{
+        grid-template-columns: 1fr;
+    }
+
+    .aligncenter > .gridLayout{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .chartList{
+        flex: 1;                    /* 남은 영역 자동 채움 */
+        min-height: 0;
+        overflow-y: auto;
+    }
+
+    .RobotOperation {
+        height:400px!important;
+    }
+
+    .SimulationData{
+        flex-direction: column!important;
+    }
+
+    .SimulationData > .height50{
+        width:100%;
+    }
+
+    .DataDetail > span{
+        font-size:16px;
+    }
+
+    .BlockImg{
+        width:100%;
+        height:100%;
+    }
+
+    .pop2{
+        margin-top:55px;
+    }
+
+    .KPI{
+        height:fit-content;
+    }
+
+    .KPI > .flex > .width50, .KPI > .flex > .width25{
+        width:100%;
+    }
+
+    .KPIfield{
+        padding:5px;
+        width:calc(100% - 10px);
+    }
+
+    .FactoryTitle{
+        font-size:18px;
+    }
+
+    .KPIrate, .KPIrateCanvas{
+        height:300px!important;
+    }
+}
+
+@media screen and (max-width: 582px) {
+    .weldimg{
+        width: 200px;
+        height:200px;
+    }
+
+    .scaleimg{
+        width:70%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .titlemenu, .nowtime, footer{
+        font-size:13px;
+    }
+
+    .header1 > span{
+        font-size:15px;
+    }
+
+    .sidemodal{
+        width:300px;
+    }
+    .close{
+        right:300px;
+    }
+    .sidemodal > * > table{
+        font-size:11px;
+    }
+
+    .Calendardiv {
+        height: 600px;
+    }
+
+    .cat{
+        margin-bottom:3px;
+    }
+
+    .side{
+        padding:4px;
+    }
+
+    .side h3 {
+        margin: 3px 0 6px;
+    }
+
+    #todayBtn, .CreateEvent{
+        font-size:13px;
+    }
+    .profile > .flex{
+        flex-direction: column;
+    }
+    .profile > .flex > .width50{
+        width:100%;
+    }
+
+    .gridbuttondiv {
+        grid-template-columns: repeat(auto-fit, minmax(50%, auto));
+    }
+
+    .width50 > * > .cellimg{
+        width:100%;
+    }
+
+    .weldimg{
+        width: 150px;
+        height:150px;
+    }
+
+    .reactivedatainfo{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .AllData{
+        width:100%;
+    }
+
+    .DataDetail > span{
+        font-size:13px;
+    }
+
+    .KPIfield{
+        font-size:16px!important;
+        padding:5px;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .header2button > div > button, .header2button > div > select{
+        width:85px;
+        font-size:13px;
+        margin-right:5px;
+    }
+}

@@ -1,0 +1,60 @@
+.sidebar{
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    width:250px;
+    height:100%;
+    position:fixed;
+    color:white;
+    overflow-y:auto;
+}
+
+.flex-column{
+    display:flex;
+    flex-direction:column;
+}
+
+.firstmenu{
+    display:flex;
+    justify-content: space-between;
+}
+
+.submenu, .navbar-toggler{
+    display:none;
+}
+
+
+.firstmenu{
+    padding:10px;
+    border-radius:5px;
+    margin:5px;
+}
+
+.submenu{
+    margin:0;
+    padding:0 10px;
+}
+
+.submenu > a{
+    width:90%;
+    list-style:none;
+    margin:5px auto;
+    padding:10px;
+    background: linear-gradient(90deg, red,orange);
+    border-radius:5px;
+    font-size:13px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.firstmenu:hover, .submenu > li:hover{
+    cursor:pointer;
+    background-color: rgba(255,255,255,0.5);
+    transition:0.3s;
+}
+
+.logo{
+    width:200px;
+    margin:10px;
+}
